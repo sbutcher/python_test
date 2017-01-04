@@ -4,5 +4,7 @@
 #$ -j y
 #$ -l h_rt=12::
 #$ -l h_vmem=4G
+module load python/2.7.8
+python --version
 time python $HOME/containers/python_prime2.py
 
