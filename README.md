@@ -18,21 +18,21 @@ Jobs were run via Univa 8.4.0 on the same node. Node was empty except for runnin
 
 ### Xeon(R) CPU           E5645  @ 2.40GHz
 
-#### Centos6 Native 
-maxvmem      27.504M
-
-ioops        267                 
-
-wallclock    7266.985     
+| Environment | Centos 6 native | Singularity Centos 6  |
+| ------------ | ------------- | ------------ |
+| python version | 2.7.8 | 2.7.8 |
+| maxvmem | 27.504M|   |
+| ioops | 267  |  |
+| wallclock | 7266.985  | |
 
 
 ### Xeon(R) CPU           E5420  @ 2.50GHz
 
-#### Centos7 Native (running python2.7.8)
+| Environment | Centos 7 native | Singularity Centos 6  |
+| ------------ | ------------- | ------------ |
+| python version | 2.7.8 | 2.7.8 |
+| maxvmem | 230.863M|   |
+| ioops | 179  |  |
+| wallclock | 6816.009 | |
 
-maxvmem      230.863M
-
-ioops        179                 
-
-wallclock    6816.009     
 
