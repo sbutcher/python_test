@@ -6,14 +6,15 @@ Include: yum
 
 
 %post
+    # necessary for centos6 due to lack of overlayfs
+    mkdir /data
     RELEASEVER=6
     ARCH=x86_64
     echo $RELEASEVER > /etc/yum/vars/releasever
     echo $ARCH > /etc/yum/vars/arch
+    rpm --rebuilddb
     yum -y install centos-release-SCL 
     yum -y install vim python27
-    # necessary for centos6 due to lack of overlayfs
-    mkdir /data
 
 %runscript
-    scl enable python27 "python $@"
+    scl enable python27 "python2.7 $@"
