@@ -6,7 +6,7 @@ Include: yum
 
 
 %post
-    #yum -y install epel-release
+    yum -y install python27 vim
     # necessary for centos6 due to lack of overlayfs
     mkdir /data
 
