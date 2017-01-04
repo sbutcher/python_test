@@ -34,3 +34,14 @@ ioops        267
 
 wallclock    7266.985     
 
+
+### Xeon(R) CPU           E5420  @ 2.50GHz
+
+### Centos7 Native (running python2.7.8)
+
+maxvmem      230.863M
+
+ioops        179                 
+
+wallclock    6816.009     
+
