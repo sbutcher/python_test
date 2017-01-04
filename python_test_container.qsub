@@ -1,0 +1,10 @@
+#!/bin/bash
+#$ -cwd
+#$ -V
+#$ -j y
+#$ -l h_rt=12::
+#$ -l h_vmem=4G
+module load use.dev
+module load singularity
+time singularity exec $HOME/containers/py3.img python $HOME/containers/python_prime2.py
+

@@ -1,0 +1,8 @@
+#!/bin/bash
+#$ -cwd
+#$ -V
+#$ -j y
+#$ -l h_rt=12::
+#$ -l h_vmem=4G
+time python $HOME/containers/python_prime2.py
+
