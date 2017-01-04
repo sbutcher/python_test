@@ -8,21 +8,12 @@ Jobs were run via Univa 8.4.0 on the same node. Node was empty except for runnin
 
 ### Haswell E5-2667
 
-#### Centos 6 native (python 2.7.8)
-
-maxvmem      27.504M
-
-ioops        267                 
-
-wallclock    5090.442     
-
-#### Singularity Container (centos6.def with Python2.7.8)
-
-maxvmem      47.543M
-
-ioops        534                 
-
-wallclock    5930.322     
+| Environment | Centos 6 native | Singularity Centos 6  |
+| ------------ | ------------- | ------------ |
+| python version | 2.7.8 | 2.7.8 |
+| maxvmem | 27.504M| 47.543M |
+| ioops | 267  | 534 |
+| wallclock | 5090.442  | 5930.322 |
 
 
 ### Xeon(R) CPU           E5645  @ 2.40GHz
