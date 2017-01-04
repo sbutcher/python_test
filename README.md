@@ -8,21 +8,29 @@ Jobs were run via Univa 8.4.0
 
 ### Haswell E5-2667
 
-Centos 6 native (python 2.7.8)
+#### Centos 6 native (python 2.7.8)
+
 maxvmem      27.504M
+
 ioops        267                 
+
 wallclock    5090.442     
 
-Singularity Container (centos6.def with Python2.7.8)
+#### Singularity Container (centos6.def with Python2.7.8)
+
 maxvmem      47.543M
+
 ioops        534                 
+
 wallclock    5930.322     
 
 
 ### Xeon(R) CPU           E5645  @ 2.40GHz
 
-Centos6 Native 
+#### Centos6 Native 
 maxvmem      27.504M
+
 ioops        267                 
+
 wallclock    7266.985     
 
