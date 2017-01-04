@@ -2,7 +2,7 @@
 python test inside and outside a singularity container.
 
 Uses python 2.7.8 from Centos SCL inside the container. We have python2.7.8 natively too.
-Jobs were run via Univa 8.4.0
+Jobs were run via Univa 8.4.0 on the same node. Node was empty except for running the job.
 
 ## Results:
 
