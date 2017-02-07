@@ -13,7 +13,7 @@ Jobs were run via Univa 8.4.0 on the same node. Node was empty except for runnin
 | python version | 2.7.8 | 2.7.8 |
 | maxvmem | 27.504M| 47.543M |
 | ioops | 267  | 534 |
-| wallclock | 5090.442  | 5930.322 |
+| wallclock(sec) | 5090.442  | 5930.322 |
 
 
 ### Xeon(R) CPU           E5645  @ 2.40GHz
