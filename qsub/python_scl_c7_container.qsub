@@ -1,0 +1,10 @@
+#!/bin/bash
+#$ -cwd
+#$ -j y
+#$ -l h_rt=12::
+#$ -l h_vmem=4G
+module load singularity
+echo "container,scl"
+hostname
+time singularity run ~/containers/centos7-scl.img ../python_prime2.py
+

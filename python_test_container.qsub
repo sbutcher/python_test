@@ -6,5 +6,6 @@
 #$ -l h_vmem=4G
 module load use.dev
 module load singularity
-time singularity exec centos6.img scl enable python27 "python --version; python python_prime2.py"
+#time singularity exec centos6.img scl enable python27 "python --version; python python_prime2.py"
+time singularity exec c7.img python python_prime2.py
 

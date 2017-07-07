@@ -1,0 +1,11 @@
+#!/bin/bash
+#$ -cwd
+#$ -j y
+#$ -l h_rt=12::
+#$ -l h_vmem=4G
+module load python/2.7.13
+python --version
+hostname
+echo "native python module"
+time python ../python_prime2.py
+
