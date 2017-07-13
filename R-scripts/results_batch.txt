@@ -1,0 +1,41 @@
+jobid,task,cpusecs,mem,ioops,node
+44749,Native OS,3759,5050,605,nxv39
+44749,Native OS,3783,5053,605,nxv39
+44749,Native OS,3805,5054,605,nxv39
+44749,Native OS,3799,5054,605,nxv39
+44749,Native OS,3785,5054,605,nxv39
+44749,Native OS,3799,5057,605,nxv39
+44749,Native OS,3763,5060,605,nxv39
+44749,Native OS,3755,5062,603,nxv39
+44749,Native OS,3769,5065,605,nxv39
+44749,Native OS,3771,5088,605,nxv39
+46024,Singularity,3955,5055,605,nxv39
+46024,Singularity,3963,5056,605,nxv39
+46024,Singularity,3965,5057,605,nxv39
+46024,Singularity,3947,5057,605,nxv39
+46024,Singularity,3963,5058,605,nxv39
+46024,Singularity,3981,5060,605,nxv39
+46024,Singularity,3975,5060,606,nxv39
+46024,Singularity,3967,5076,605,nxv39
+46024,Singularity,3981,5086,606,nxv39
+46024,Singularity,3967,5094,606,nxv39
+47010,Singularity Enable Optimisations,3935,10371,1241,nxv39
+47010,Singularity Enable Optimisations,3999,10393,1244,nxv39
+47010,Singularity Enable Optimisations,3947,10401,1245,nxv39
+47010,Singularity Enable Optimisations,3987,10404,1245,nxv39
+47010,Singularity Enable Optimisations,3973,10404,1246,nxv39
+47010,Singularity Enable Optimisations,4035,10407,1246,nxv39
+47010,Singularity Enable Optimisations,3937,10442,1244,nxv39
+47010,Singularity Enable Optimisations,3955,10442,1246,nxv39
+47010,Singularity Enable Optimisations,3943,10474,1241,nxv39
+47010,Singularity Enable Optimisations,3955,10665,1246,nxv39
+46494,Singularity SCL,4092,5981,726,nxv39
+46494,Singularity SCL,4004,5982,723,nxv39
+46494,Singularity SCL,4052,5982,726,nxv39
+46494,Singularity SCL,4030,5983,727,nxv39
+46494,Singularity SCL,3998,5983,726,nxv39
+46494,Singularity SCL,4026,5984,727,nxv39
+46494,Singularity SCL,4008,5987,727,nxv39
+46494,Singularity SCL,4014,5998,727,nxv39
+46494,Singularity SCL,4010,6024,726,nxv39
+46494,Singularity SCL,4102,6318,727,nxv39
